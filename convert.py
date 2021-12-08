@@ -1,9 +1,9 @@
+# pip install moviepy
+# python3
 from moviepy.editor import *
 import os
 
 # for file name not have "."
-
-
 def change_ext_name(name):
     return name.split(".")[0] + ".mp3"
 
